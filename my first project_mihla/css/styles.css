@@ -1,0 +1,45 @@
+body{
+    background:linear-gradient(to bottom left, #e60000 0%, #0000ff 100%);
+}
+.header{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+  }
+  
+  .nav a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
+  }
+  
+  .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav li {
+    margin-left: 20px;
+}
+h1{
+    font-style: italic;
+    color: white;
+}
+
+
+.footer{
+    justify-content: center;
+}
+ .footer{
+     background-color: red;
+ }
+
